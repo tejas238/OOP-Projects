@@ -1,0 +1,124 @@
+color
+1
+2
+5000
+Firethorn red
+Matte
+Highly resistant
+
+color
+2
+2
+4500
+Hunchback gold
+Reflective
+Resistant
+
+color
+3
+2
+1500
+Regular gray
+Neutral
+Anti scratch coat
+
+color
+4
+2
+2500
+Searing purple
+Reflective
+Not applied
+
+color
+5
+2
+6000
+Premium Blue
+Matte
+Highly resistant
+
+engine
+1
+1
+15000
+V6 Vulcan
+160 HP
+4000 CC
+25 MPL
+
+engine
+2
+1
+25000
+V8 Hybrid
+250 HP
+4500 CC
+30 MPL
+
+engine
+3
+1
+50000
+V10 Roadster
+500 HP
+6000 CC
+20 MPL
+
+engine
+4
+1
+150000
+V12 Rolls-Royce
+750 HP
+1000 CC
+15 MPL
+
+engine
+5
+1
+10000
+V4 Mini
+100 HP
+500 CC
+30 MPL
+
+wheels
+1
+3
+500
+Bridgestone Alloy Wheel
+Magnesium and Aluminum
+8.5" x 20"
+
+wheels
+2
+3
+1000
+Two-fold Respite
+Aluminum
+10" x 25"
+
+wheels
+3
+3
+1500
+Three-fold Respite
+Aspirated aluminum
+10" x 25"
+
+wheels
+4
+3
+1200
+Ceat Sport Alloy
+Carbon-free Iron
+8" x 19"
+
+wheels
+5
+2
+3500
+Brightened Chrome
+Carbon fibre
+10" x 20"
