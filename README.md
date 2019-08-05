@@ -1,9 +1,13 @@
-# CS163 Projects – Data Structures
+# CS202 Projects – Object Oriented Programming in C++
 
-**myChat ADT**
+**Star Explorng Game**
 
-- A simple chat ADT and testing application that simulates popular functions in chat applications.
-- Utilizes a node chain to connect chat rooms and another node chain in each chat room for the messages
+-Procedurally generated star system allows user exploration to discover a planet with life.
+-A planet with life depends on several factors- distance from the local sun, composition, number of moons, atmosphere & velocity. These factors affect each other and the passage of time causes these to change.
+-ADT implements a DLL for all planets in a solar system and an array of DLLs for a solar systems in a galaxy
+-Velocity and mass of spaceship affects its position in space and the chosen planet to investigate depends on which planet exerts highest gravitational force on the spaceship.
+-Preset planet conditions are read from an external file which depend on planet object's variables.
+-Inheritence is implemented derived classes such as planet/spaceship to behave like fundamental classes such as mass/time. 
 
 **Plane\_Boarding\_ADT**
 
