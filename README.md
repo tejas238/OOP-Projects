@@ -7,7 +7,7 @@
 * ADT implements a DLL for all planets in a solar system and an array of DLLs for a solar systems in a galaxy
 * Velocity and mass of spaceship affects its position in space and the chosen planet to investigate depends on which planet exerts highest gravitational force on the spaceship.
 * Preset planet conditions are read from an external file which depend on planet object's variables.
-* Inheritence is implemented derived classes such as planet/spaceship to behave like fundamental classes such as mass/time. 
+* Inheritence is implemented for derived classes such as planet/spaceship to behave like fundamental classes such as mass/time. 
 
 **Plane\_Boarding\_ADT**
 
