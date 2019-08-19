@@ -1,7 +1,7 @@
 # CS202 Projects – Object Oriented Programming in C++ and Java
 
 **C++**
-**Star Exploring Game**
+**Star Exploration Game**
 
 * Procedurally generated star system allows user exploration to discover a planet with life.
 * A planet with life depends on several factors- distance from the local sun, composition, number of moons, atmosphere & velocity. These factors affect each other and the passage of time causes these to change.
