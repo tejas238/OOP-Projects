@@ -1,5 +1,6 @@
-# CS202 Projects – Object Oriented Programming in C++
+# CS202 Projects – Object Oriented Programming in C++ and Java
 
+**C++**
 **Star Exploring Game**
 
 * Procedurally generated star system allows user exploration to discover a planet with life.
@@ -9,22 +10,16 @@
 * Preset planet conditions are read from an external file which depend on planet object's variables.
 * Inheritence is implemented for derived classes such as planet/spaceship to behave like fundamental classes such as mass/time. 
 
-**Plane\_Boarding\_ADT**
+**Event Management Chat System**
 
-- Utilizes a queue as a circular linked list to add and remove passengers from a &#39;preboard&#39; queue and then to a sorted &#39;board&#39; queue.
-- Passengers from the sorted &#39;board&#39; queue are then &#39;pushed&#39; in sorted order into the plane &#39;stack&#39;, such that the person deepest into the plane boards first and then the lower rows. Passengers in each row also board in the order such that seats closer to the windows board first.
-- The program is customizable to a plane of any &#39;halfrow&#39; size - i.e there needs to be an even number of seats in each row and only a single aisle.
-- The plane &#39;stack&#39; is created as a linear linked list of arrays. Each node represents a row and its array the seats in that row.
+* An event posting and chatting application allows users to sign-up and create event specific chat threads.
+* Events are identified by a keyword and stored within a red-black tree organized by keyword. Events with the same keyword are stored in a linear linked list and are accessible in O(logn) time.
+* Events can be displayed and its corresponding chat when queried by keyword. Operator overloading implements common functions for LLL insertion/display/replication and relational operators for comparison between users and events.
+* Chat histories are stored within a dynamically created external data file per event.
 
-**Event\_Management\_hasht\_ADT**
+**Java**
+**Product Selection & Search Interface**
 
-- Uses a hashtable to store events hashed by its keywords. Each event contains &#39;n&#39; keywords and therefore instanced &#39;n&#39; number of times in the hashtable. Instead of storing copies of events for the different keywords, a single event instance is pointed to by several pointers from possibly different hash indexes.
-- LLL chain used as a collision resolution technique.
-- O(1) performance on average for event retrieval and addition
-- A sample data file &#39;events\_tej.txt&#39; included for performance benchmarking
-
-#### **Event\_Management\_BST\_ADT**
-
-- Essentially the same program as before, but this time using a binary search tree as the data structure.
-- Search tree is maintained by event title rather than the keywords unlike before. This means that there aren&#39;t any duplicate events.
-- The &#39;events\_tej.txt&#39; external data file with 73 titles is used here as well, and the height in accordance to these titles comes to 13. Therefore a relatively balanced performance can be expected with an average performance of O(log(2)(n)).
+* For a choice of vehicular features - wheels, color and engine - a user is able to display search results for all cars ordered by a match score. Cars are randomly generated with feature configurations chosen from an external data file and placed into randomly assigned dealership objects.
+* A BST within a BST stores all cars arranged by name with the outer BST storing all dealerships also arranged by name.
+* A search invocation assigns a match score to every car in the database and then creates another search result BST storing cars by match score value.
