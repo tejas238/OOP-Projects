@@ -1,6 +1,6 @@
 # CS202 Projects – Object Oriented Programming in C++ and Java
 
-##C++
+## C++
 **Star Exploration Game**
 
 * Procedurally generated star system allows user exploration to discover a planet with life.
@@ -17,7 +17,7 @@
 * Events can be displayed and its corresponding chat when queried by keyword. Operator overloading implements common functions for LLL insertion/display/replication and relational operators for comparison between users and events.
 * Chat histories are stored within a dynamically created external data file per event.
 
-##Java
+## Java
 **Product Selection & Search Interface**
 
 * For a choice of vehicular features - wheels, color and engine - a user is able to display search results for all cars ordered by a match score. Cars are randomly generated with feature configurations chosen from an external data file and placed into randomly assigned dealership objects.
